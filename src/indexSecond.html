@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleSeconds.min.css">
+</head>
+<body>
+    <h1>Apply relative position</h1>
+    <div class="wrapper">
+        <div class="wrapper__list">
+            <h2>First element</h2>
+            <div class="wrapper__descr">
+                I am moved left to 50px from my static position <br>
+                My sizes are following: <br>
+                { width: 500px; height: 250px; } <br>
+                <span class="wrapper__elem">My border-radius: <br>
+                { border-radius: 10px; }</span>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-second">
+        <div class="wrapper__list">
+            <h2>Second element</h2>
+            <div class="wrapper__descr">
+                I am with static position by default <br>
+                My sizes are following: <br>
+                { width: 600px; height: 250px; } <br>
+                <span class="wrapper__elem">My border-radius: <br>
+                { border-radius: 20px; }</span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="wrapper-third">
+        <div class="wrapper-third__header">Apply absolute position</div>
+        <div class="wrapper-third__block">
+            <div class="wrapper-third__descr">
+                <span class="wrapper-third__elem">I am parent with relative postition <br></span>
+                My sizes are following: <br>
+                { width: 1000px; height: 200px; }
+            </div>
+            <div class="wrapper-third__descr-second">
+                <span class="wrapper-third__elem"> I am child element with abolute positioning, top <br> and right 10px </span>
+                <br>
+                My sizes are following: <br>
+                { width: 420px; height: 150px; }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
